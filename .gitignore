@@ -1,0 +1,11 @@
+# OSXが勝手に作るファイルを無視します
+.DS_Store
+
+# copilot用のuserInstructionFilesを無視します
+.github/copilot-instructions.md
+
+# Claudeエージェント関連
+## サブエージェントはプロジェクトで共有するが、その詳細な指示はタスク固有なので、共有から外します。
+.claude/agents/spec/**/*
+## エージェントとの会話ログは不要なので、無視します
+.claude/agents/chat.md
