@@ -5,8 +5,7 @@
 // Prompt Design: まじん式プロンプト
 // Description: 指定されたslideData配列を元に、Google風デザインに準拠したスライドを生成します。
 
-// --- 1. 実行設定 ---
 const SETTINGS = {
   SHOULD_CLEAR_ALL_SLIDES: true,
-  TARGET_PRESENTATION_ID: null
+  TARGET_PRESENTATION_ID: "1K20BpQ-cABlivsRfkia4PY4AGGSAGZP8zjeC9Z-E-CQ"
 };
