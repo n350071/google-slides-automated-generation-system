@@ -6,9 +6,10 @@
 // Description: ????slideData????Google Apps Script???????????????????????
 
 // --- 1. ?? ---
+  //TARGET_PRESENTATION_ID: "1K20BpQ-cABlivsRfkia4PY4AGGSAGZP8zjeC9Z-E-CQ"
 const SETTINGS = {
   SHOULD_CLEAR_ALL_SLIDES: true,
-  TARGET_PRESENTATION_ID: "1K20BpQ-cABlivsRfkia4PY4AGGSAGZP8zjeC9Z-E-CQ"
+  TARGET_PRESENTATION_ID: "1sIhPB6tFzU-JHB1i0IOmtRA3fOhR7HfVvmSs-d9fTuU"
 };
 
 // --- 2. ????????? - (Google Design Ver.) ---
@@ -117,7 +118,7 @@ ghostNum: 180  
 }  
 },  
 COLORS: {  
-primary_blue: '#4285F4',
+primary_blue: '#004ea2',
 google_red: '#EA4335',
 google_yellow: '#FBBC04',
 google_green: '#34A853',
@@ -139,8 +140,8 @@ arrow_h_px: 10, arrowGap_px: 8
 },
 
 LOGOS: {  
-header: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1024px-Google_2015_logo.svg.png',
-closing: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1024px-Google_2015_logo.svg.png'
+header: 'https://zeroichi-hacker.com/static/media/logo_name.e3f63473c3d9184efd28.png',
+closing: 'https://zeroichi-hacker.com/static/media/logo_name.e3f63473c3d9184efd28.png'
 },
 
 FOOTER_TEXT: '(c) ' + (new Date().getFullYear()) + ' Your Organization'

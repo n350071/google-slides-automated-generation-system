@@ -82,7 +82,7 @@
 
 * 出力は **【GOOGLE_TEMPLATE_BLUEPRINT】の完全な全文**であり、唯一の差分が const slideData =... の中身になるように生成すること。
 * **コード以外のテキスト（前置き/解説/謝罪/補足）は一切含めない。**
-* 出力先は、 `/prompt/slide-data.gs` です。
+* 出力先は、 `/prompt/generated-slide-data.gs` です。
 
 ## **7.0 GOOGLE_TEMPLATE_BLUEPRINT — 【Universal Google Design Ver.】完成済み設計図**
 詳細は、 `./src` フォルダ内のファイルを参照してください。
