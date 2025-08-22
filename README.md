@@ -8,7 +8,7 @@ AI・人間協働によるコード固定・データ可変アーキテクチャ
 - 企業環境対応: Google Workspaceのみでスライド生成を完結
 - 安定性重視: コード固定×データ可変アーキテクチャによる高い信頼性
 - 豊富なパターン: 8種類のスライドパターンを標準搭載
-- AI活用: GeminiによるJSON設計図の自動生成
+- AI活用: LLM AIによるJSON設計図の自動生成
 
 ## アーキテクチャ
 ```
@@ -55,11 +55,11 @@ AI・人間協働によるコード固定・データ可変アーキテクチャ
 ### 1. 事前準備
 1. Google Apps Scriptでプロジェクトを作成
 2. 本リポジトリの`.gs`ファイルをすべてコピー
-3. Gemini 2.5 Proのアクセス権限を確保
+3. LLM AI（ChatGPT、Claude、Gemini等）のアクセス権限を確保
 
 ### 2. スライド生成手順
 1. 入力準備: 文字起こし、PDF、会議録音などの素材を準備
-2. AI設計: `prompt.md`のプロンプトをGeminiに与え、JSON設計図を生成
+2. AI設計: `prompt.md`のプロンプトをLLM AI（ChatGPT、Claude、Gemini等）に与え、JSON設計図を生成
 3. コード実行: 生成されたコードをGoogle Apps Scriptに貼り付けて実行
 4. 完成: Googleスライドが自動生成される
 
@@ -82,7 +82,7 @@ function generatePresentation() {
 - GAS実行時間制限: 最大6分
 - スライド上限: 50枚
 - 画像制約: 50MB未満・25MP以下のPNG/JPEG/GIF/WebP
-- 高性能LLM（Gemini 2.5 Pro等）での利用が前提
+- 高性能LLM AI（ChatGPT、Claude、Gemini等）での利用が前提
 
 ## 適用可能な環境
 
