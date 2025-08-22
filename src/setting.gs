@@ -2,7 +2,6 @@
 // このスクリプトは、Google風デザインテンプレートに基づきGoogleスライドを自動生成します。
 // Version: 12.0 (Universal Google Design - Final)
 // Author: Googleスライド自動生成マスター
-// Prompt Design: まじん式プロンプト
 // Description: 指定されたslideData配列を元に、Google風デザインに準拠したスライドを生成します。
 
 const SETTINGS = {

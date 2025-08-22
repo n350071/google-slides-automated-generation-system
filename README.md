@@ -39,16 +39,25 @@ AI・人間協働によるコード固定・データ可変アーキテクチャ
 
 ## ファイル構成
 ```
-├── README.md                           # このファイル
-├── prompt.md                           # AI用のマスタープロンプト
-├── main.gs                            # メイン実行関数
-├── master-design.gs                   # デザイン設定・レイアウト定義
-├── setting.gs                         # 実行設定
-├── slide-data.gs                      # スライドデータのサンプル
-├── slide-generate-funcs.gs            # スライド生成関数群
-├── utils.gs                          # ユーティリティ関数
-├── dispatcher.gs                      # スライドタイプ別ディスパッチャ
-└── 20250822-google-slides-automated-generation-system.md # 詳細仕様書
+├── README.md                                      # このファイル
+├── 20250822-google-slides-automated-generation-system.md # 詳細仕様書
+├── CLAUDE.md                                      # Claude AIとの対話記録
+├── prompt/                                        # プロンプト関連ファイル
+│   ├── prompt.md                                  # AI用のマスタープロンプト
+│   ├── my-presentation.md                         # プレゼンテーション内容サンプル
+│   ├── slide-data.gs                              # スライドデータのサンプル
+│   └── generated-slide-data.gs                    # AIによって生成されたスライドデータ
+├── src/                                           # ソースコードディレクトリ（動かなかった）
+│   ├── appsscript.json                            # Apps Script設定ファイル
+│   ├── main.gs                                    # メイン実行関数
+│   ├── master-design.gs                           # デザイン設定・レイアウト定義
+│   ├── setting.gs                                 # 実行設定
+│   ├── slide-data.gs                              # スライドデータのサンプル
+│   ├── slide-generate-funcs.gs                    # スライド生成関数群
+│   ├── utils.gs                                   # ユーティリティ関数
+│   └── dispatcher.gs                              # スライドタイプ別ディスパッチャ
+└── src-composed/                                  # 合成されたソースコード（動いた！）
+    └── main.gs                                    # 全ファイルを統合したコード
 ```
 
 ## 使用方法
@@ -106,11 +115,6 @@ function generatePresentation() {
 ## ライセンス
 
 MIT License
-
-## 作者
-
-- 設計思想・プロンプト: まじん
-- 実装: Google Apps Script
 
 ## 関連リンク
 
