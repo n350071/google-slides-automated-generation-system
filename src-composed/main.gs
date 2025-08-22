@@ -144,7 +144,7 @@ header: 'https://zeroichi-hacker.com/static/media/logo_name.e3f63473c3d9184efd28
 closing: 'https://zeroichi-hacker.com/static/media/logo_name.e3f63473c3d9184efd28.png'
 },
 
-FOOTER_TEXT: '(c) ' + (new Date().getFullYear()) + ' Your Organization'
+FOOTER_TEXT: '(c) ' + (new Date().getFullYear()) + '????????????'
 };
 
 // --- 3. ??????? ---
