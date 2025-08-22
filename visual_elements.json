@@ -1,0 +1,76 @@
+{
+  "visualElements": {
+    "layouts": {
+      "title_slide": {
+        "description": "表紙用レイアウト",
+        "elements": ["メインタイトル", "サブタイトル", "ハッシュタグ", "出典"]
+      },
+      "big_number": {
+        "description": "大きな数字で衝撃を与えるレイアウト",
+        "elements": ["メイン統計（大フォント）", "説明テキスト", "サポート統計", "キーメッセージ"]
+      },
+      "problem_solution": {
+        "description": "問題提起と解決策提示",
+        "elements": ["問題の中心的説明", "詳細リスト", "比較要素", "図解"]
+      },
+      "two_column_comparison": {
+        "description": "2列比較レイアウト",
+        "elements": ["左列：成功要因", "右列：失敗要因", "色分け", "アイコン"]
+      },
+      "strategy_framework": {
+        "description": "戦略フレームワーク表示",
+        "elements": ["現状vs推奨", "ROI分野", "アクションアイテム", "フロー図"]
+      },
+      "timeline": {
+        "description": "時系列アクション表示",
+        "elements": ["即座のアクション", "短期アクション", "中期アクション", "タイムライン"]
+      },
+      "future_vision": {
+        "description": "将来展望レイアウト",
+        "elements": ["定義", "能力リスト", "準備ステップ", "ビジョン図"]
+      },
+      "conclusion": {
+        "description": "まとめと行動喚起",
+        "elements": ["重要ポイント", "戦略的視点", "Next Actions", "CTA"]
+      }
+    },
+    "colorScheme": {
+      "primary": "#1a365d",
+      "secondary": "#2d4a66", 
+      "accent": "#e53e3e",
+      "success": "#38a169",
+      "warning": "#d69e2e",
+      "background": "#ffffff",
+      "text": "#2d3748",
+      "lightGray": "#f7fafc"
+    },
+    "iconSuggestions": {
+      "success": "✓ チェックマーク",
+      "failure": "✗ バツマーク",
+      "growth": "📈 上昇グラフ",
+      "decline": "📉 下降グラフ",
+      "strategy": "🎯 ターゲット",
+      "partnership": "🤝 握手",
+      "automation": "⚡ 稲妻",
+      "future": "🚀 ロケット",
+      "warning": "⚠️ 警告",
+      "money": "💰 お金袋"
+    },
+    "chartTypes": {
+      "slide2": "大きな円グラフ（95% vs 5%）",
+      "slide4": "比較バーチャート",
+      "slide5": "予算配分円グラフ（現状vs推奨）",
+      "slide6": "ガントチャート風タイムライン",
+      "slide7": "AI進化のロードマップ"
+    }
+  },
+  "presentationFlow": {
+    "openingHook": "95%という衝撃的な失敗率から開始",
+    "problemIdentification": "学習ギャップの詳細説明",
+    "solutionPresentation": "成功要因の明確化",
+    "actionableStrategy": "具体的予算配分と組織戦略",
+    "implementationPlan": "段階別アクションプラン",
+    "futureVision": "次世代AI技術への展望",
+    "callToAction": "今日から始められる具体的行動"
+  }
+}
